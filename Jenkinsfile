@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Requirements') {
+        stage('Requirements from git') {
             steps {
                 echo 'Getting Requirements....'
             }
